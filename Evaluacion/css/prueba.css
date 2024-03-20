@@ -1,0 +1,287 @@
+body {
+	background: #4c536b;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #8EA9DB;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/* Estilos de encabezados */
+h1 {
+    text-align: center;
+    margin-left: 250px;
+    font-size: 36px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+text-align: center;
+justify-content: center;
+}
+
+.textobanner {
+    font-size: 25px;
+
+}
+
+/* Estilos de imágenes */
+img {
+    width: 200px;
+    float: left;
+    justify-content: space-between;
+    margin-left: -29px;
+    margin-top: -36px;
+    border-radius: 10px;
+}
+
+
+.img-cursos {
+    display: flex; 
+    justify-content: space-between; 
+    margin-left: 2rem;
+}
+
+.img-cursos a {
+    margin-right: 20px; 
+}
+
+.img-cursos img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+
+.img-cursos img {
+    width: 200px; 
+    height: auto; 
+    border-radius: 10px;
+}
+
+.img-profesores {
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 40px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+/* Estilos del menú */
+.menu1 {
+    background: #6b80a7;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0; 
+}
+
+.menu1 ul {
+    list-style: none;
+    padding: 0; 
+}
+
+.menu1 li {
+    display: inline-block;
+    margin: 0 10px; 
+}
+
+.menu1 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.menu1 a:hover {
+    color: #29acac;
+}
+
+
+.contenedor {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	gap: 20px;
+
+}
+
+.contenedor1 {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+	display: grid;
+	grid-template-columns:100fr 1fr;
+	gap: 20px;
+}
+
+.titulo {
+	font-size: 24px;
+	padding: 20px 0;
+}
+
+.contenedor-conciertos {
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	gap: 20px;
+	
+}
+
+.contenedor-profesores {
+    display: grid;
+	grid-template-columns: repeat(3,1fr);
+	gap: 20px;
+}
+
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    background-color: #ffffff;
+
+	
+}
+
+
+.card .textos {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between ;
+	
+}
+
+.banner {
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    background-color: #8EA9DB;
+
+
+}
+
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner ul {
+	list-style: none;
+}
+
+.banner ul li {
+	margin: 15px;
+	font-weight: bold;
+}
+
+.banner .boton {
+	background: #FFD600;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+.contenedor-videos {
+    display: flex;
+    justify-content: center;
+}
+
+.card-videos {
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+}
+
+.textos {
+    text-align: center;
+}
+
+.videos1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.video {
+    width: 400px; 
+    border-radius: 10px;
+}
+
+/* Estilos para pantallas de tamaño específico */
+.footer{
+    background-color: gray;
+    padding-bottom: 3rem;
+    border-radius: 1rem;
+   }
+   
+   .footer-grid {
+     display: grid;
+     grid-template-columns: 2fr 2fr 1fr;
+     gap: 2rem;
+     
+   }
+   
+   .footer-grid h2{
+     margin: 3rem 0;
+     text-transform: uppercase;
+     font-weight: 900;
+   }
+   
+   .nav-footer a {
+     display: block;
+     color: rgb(231, 226, 226);
+     text-decoration: none;
+   
+   }
+   
+   .nav-footer a:hover {
+     cursor: pointer;
+     color:aquamarine;
+   }
+   
+   .nav-iconos{
+     display: flex;
+     width:10rem;
+   }
+
+
+
+/* Estilos para pantallas de tamaño específico */
+@media screen and (max-width: 900px) {
+
+}
+
+@media screen and (max-width: 700px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+
